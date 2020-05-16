@@ -102,7 +102,7 @@ cnoremap <silent> <Plug>CapsLockDisable <C-R>=<SID>disable('c')<CR>
 if empty(mapcheck("<C-L>", "i"))
   imap <C-L> <Plug>CapsLockToggle
 endif
-imap <C-G>c <Plug>CapsLockToggle
+imap <C-g> <Plug>CapsLockToggle
 nmap gC <Plug>CapsLockToggle
 
 " }}}1
